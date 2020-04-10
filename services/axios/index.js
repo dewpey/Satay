@@ -10,4 +10,4 @@ const runCheck = async (request, expect) => {
   }
 };
 
-module.exports = runCheck;
+module.exports = { runCheck };

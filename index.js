@@ -16,5 +16,6 @@ app.use((err, _req, res, _next) => {
 });
 
 const port = process.env.PORT || 8080;
-app.listen(port);
+const HOST = "0.0.0.0";
+app.listen(port, HOST);
 console.log("Server started at port: " + port);
